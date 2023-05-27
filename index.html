@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Website</title>
+</head>
+<body>
+    <h1>Hello World!</h1>
+    <h2>{{6 * 5}}</h2>
+    <h3>Randon Number: {{ num }}</h3>
+    <a href="{{ url_for('get_blog', num=3) }}">Go To Blog</a>
+    <a href="{{ url_for('guess', name='Abhishek') }}">Go To Guess</a>
+</body>
+<footer>
+    <p>Copyright {{year}}. Developed by Abhishek Gupta</p>
+</footer>
+</html>
